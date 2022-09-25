@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Castle';
+    src: url(../Fonts/Castlevania-Font/Bradley\ Gratis.ttf) format('truetype');
+}
+.Header{
+    font-family: 'Castle';
+    font-size: 40px;
+    margin: auto;
+    background-image: url('https://1.bp.blogspot.com/-mmeLsshk_R0/XQEWQ1UQG3I/AAAAAAAAOlE/o_MmiceT0DgkJeq1m-cyORGo2ZPxN5KPACLcBGAs/s1600/H2x1_NSwitchDS_CastlevaniaAnniversaryCollection_image1600w.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Header > h1{
+    background-image: linear-gradient(#042675,#20469e,#567dd8,#80a1f0);
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+}
+.Corpo{
+    text-align: center;
+    color: white;
+}
+.Carrossel{
+    height: 45em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border: 2px solid #121212;
+    margin: auto;
+    margin-left: -2px;
+    margin-top: -2px;
+    animation: 45s Animation infinite alternate-reverse;
+}
+@keyframes Animation {
+    0%{
+        background-image: url("https://quintacapa.com.br/wp-content/uploads/2021/05/castlevania-season-4.jpg");
+    }
+    5%{
+        background-image:url("https://i.redd.it/cztxeonjk9w61.gif");
+    }
+    10%{
+        background-image:url("https://img.ibxk.com.br/2022/03/29/29035606370019.jpg");
+    }
+    20%{
+        background-image:url("https://i0.wp.com/www.jbox.com.br/wp/wp-content/uploads/2022/02/castlevania-mobile-destacada.jpg?fit=774%2C489&quality=99&strip=all&ssl=1");
+    }
+    30%{
+        background-image:url("https://thenexus.one/storage/2022/03/Castlevania-10-Things-You-Didnt-Know-About-The-Franchises-Comic-History.jpg");
+    }
+    40%{
+        background-image:url("https://burnbook.b-cdn.net/wp-content/uploads/2018/11/netflix-renews-castlevania-for-season-3_q6bg.jpg");
+    }
+    50%{
+        background-image:url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/pt_BR/games/switch/c/castlevania-advance-collection-switch/hero");
+    }
+    60%{
+        background-image:url("https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/05/Castlevania-4poster.jpg");
+    }
+    70%{
+        background-image: url("https://1.bp.blogspot.com/-fDVvGwR6W1A/XRoKWAP6-MI/AAAAAAAABVM/RNx7ERD8yos2mF0WGBexGlaDCkaWxww-wCLcBGAs/s1600/capa.jpg");
+    }
+    80%{
+        background-image:url("https://3.bp.blogspot.com/-Rn8FCpsvOkg/WEags9cUKnI/AAAAAAAAVHk/BUspTjTuHs8ElII9Lyr5qSqn4utRKgJ-ACLcB/s1600/castlevania-portrait-02.jpg");
+    }
+    90%{
+        background-image:url("https://images5.alphacoders.com/414/thumb-1920-414765.jpg");
+    }
+    100%{
+        background-image:url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/06/Castlevania-Nocturne-Netflix-Teaser.jpg");
+    }
+}
+.CastleLogo{
+    font-family: 'Castle';
+    display: block;
+    margin: auto;
+    margin-top: -13em;
+    background: linear-gradient(135deg , rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);    
+    font-size: 40px;
+    width: 25em;
+    height: 7.8em;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px wheat;
+}
+:is(.CastleLogo) > h1,p{
+    margin-top: -15px;
+    background-image: linear-gradient(#042675,#20469e,#567dd8,#80a1f0);
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+}
+.CorpoCastle{
+    border: 2px solid transparent;
+    height: 100vh;
+}
+.LinhaTempo{
+    margin-top: 16em;
+}
+.Btn > button{
+    display: block;
+    margin: auto;
+    border: 2px solid purple;
+    cursor: pointer;
+    width: 20em;
+    height: 2em;
+    border-radius: 20px;
+    color: white;
+    background: #121212;
+}
+.Btn > button:hover{
+    filter: invert(1);
+}
+.LinhaDoTempo{
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    width: 0.1px;
+    height: 1200em;
+}
+.BoxCastleleft{
+    display: block;
+    margin: auto;
+    border: 2px solid transparent;
+    width: 40%;
+    height: 70em;
+}
+.BoxCastleleft::-webkit-scrollbar{
+    width: 0px;
+}
+.Ano{
+    font-size: 80px;
+    font-family: 'Castle';
+    background-image: linear-gradient(#042675,#20469e,#567dd8,#80a1f0);
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+}
+.CastleName{
+    font-size: 40px;
+    background-image: linear-gradient(#042675,#20469e,#567dd8,#80a1f0);
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    font-family: 'Castle';
+}
+.CastleTexto{ 
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #121212;
+    overflow: auto;
+    background: gray;
+    border-radius: 20px 0 20px 0;
+    border: 3px solid white;
+}
+.CastleTexto , .CastleName{
+    display: none;
+}
+.BoxCastleleft:hover .CastleTexto, .BoxCastleleft:hover  .CastleName{
+    display: block;
+}
+.CastleImg{
+    display: block;
+    margin: auto;
+    margin-top: 7.5em;
+    width: 20em;
+    transform: scale(1.5);
+    height: 30em;
+}
+.BoxCastleleft:hover .CastleImg{
+    transform: scale(1);
+    margin-top: -0px;
+}
+.BoxCastleCorpo{
+    border: 2px solid transparent;
+    width: 80%;
+    margin: auto;
+    margin-top: -1200em;
+}
+h4{
+    color: brown;
+    text-shadow: 2px 2px 2px purple;
+    font-size: 80px;
+    font-family: 'Castle';
+}
